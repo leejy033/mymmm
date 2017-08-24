@@ -1,0 +1,75 @@
+#nav {
+  height: 35px;
+  line-height: 35px;
+  background-color: red;
+  padding: 3px;
+}
+#nav span {
+  margin-right: 3px;
+}
+#nav span:after {
+  content: '>';
+}
+#nav > a {
+  float: right;
+  height: 30px;
+  line-height: 30px;
+  background-color: pink;
+  padding: 0 15px;
+  margin-top: 1px;
+  border-radius: 5px;
+}
+#product-con {
+  padding: 10px;
+}
+#product-con > ul li {
+  padding: 10px;
+  border-bottom: 1px solid #e7e7e7;
+}
+#product-con > ul li a .pic {
+  float: left;
+}
+#product-con > ul li a .pic img {
+  width: 100px;
+  height: 100px;
+}
+#product-con > ul li a .dest {
+  padding-left: 112px;
+}
+#product-con > ul li a .dest h3 {
+  line-height: 22px;
+  color: #000;
+  margin-top: 0;
+}
+#product-con > ul li a .dest .price {
+  color: darkred;
+  font-size: 20px;
+}
+#product-con > ul li a .dest .other {
+  margin-top: 10px;
+}
+#product-con > ul li a .dest .other span {
+  padding-left: 2px;
+  color: #ccc;
+}
+#product-con .page {
+  display: flex;
+  text-align: center;
+}
+#product-con .page span {
+  flex: 1;
+}
+#product-con .page span a {
+  line-height: 32px;
+  font-size: 14px;
+  padding: 10px 15px;
+  background-color: #d4d4d4;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#f1f1f1), to(#d4d4d4));
+  border-radius: 5px;
+}
+#product-con .page #select {
+  border: 1px solid #bababa;
+  font-size: 20px;
+  padding: 2px 15px;
+  height: 32px;
+}

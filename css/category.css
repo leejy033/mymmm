@@ -1,0 +1,24 @@
+#category > ul > li > a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  color: #0f0f0f;
+  font-weight: 700;
+  padding-left: 16px;
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+  background: url(http://www.zuyushop.com/wap/images/arrow1.gif) right center no-repeat;
+  background-color: #ededed;
+}
+#category > ul > li ul {
+  display: none;
+}
+#category > ul > li ul li {
+  float: left;
+  width: 33.33%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  border: 1px solid #ccc;
+}

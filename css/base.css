@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+input,
+select,
+form,
+button {
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  zoom: 1;
+}
+textarea {
+  width: 95%;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+em,
+i {
+  font-style: normal;
+}
+img {
+  border: none;
+}
+input,
+img {
+  vertical-align: middle;
+}
+body {
+  color: #000;
+  font-family: arial;
+  background: #FFF;
+  overflow-x: hidden;
+}
+#header {
+  height: 50px;
+  line-height: 50px;
+  background-color: #ff841d;
+  padding: 0 10px;
+}
+#header .logo {
+  float: left;
+}
+#header .logo a img {
+  width: 190px;
+  height: 25px;
+}
+#header .download {
+  float: right;
+}
+#header .download a img {
+  width: 34px;
+  height: 34px;
+}
+#search {
+  padding: 10px;
+}
+#search .form_search {
+  display: flex;
+}
+#search .form_search input[type="text"] {
+  flex: 1;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  border-radius: 15px;
+  padding-left: 10px;
+  background-color: #f1f1f1;
+  padding-left: 18px;
+  margin-right: 10px;
+}
+#search .form_search input[type="button"] {
+  width: 63px;
+  height: 30px;
+  color: #fff;
+  background-color: #ff841d ;
+  border-radius: 15px;
+  border: none;
+}
+#footer .login-top {
+  height: 35px;
+  line-height: 35px;
+  background-color: #efefef;
+  text-align: center;
+  border-bottom: 1px solid #c4c4c4 ;
+  border-top: 1px solid #c4c4c4 ;
+  margin-top: 10px;
+}
+#footer .login-top .login {
+  float: left;
+  width: 30%;
+  border-right: 1px solid #c4c4c4;
+}
+#footer .login-top .resgiter {
+  float: left;
+  width: 30%;
+  border-right: 1px solid #c4c4c4;
+}
+#footer .login-top .goTop {
+  float: left;
+  width: 40%;
+}
+#footer .login-bottom {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+}
+#footer .login-bottom .p-top {
+  margin-bottom: 0;
+}
+#footer .login-bottom .p-top span {
+  margin-right: 5px;
+}
+#footer .login-bottom .p-top span:first-child {
+  color: red;
+}
